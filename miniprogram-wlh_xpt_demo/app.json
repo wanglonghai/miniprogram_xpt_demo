@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/houseDetailTest/houseDetailTest",
+    "pages/housedetail/housedetail",
+    "pages/index/index",
+    "pages/successfull/paysuccessful",
+    "pages/anotherpage/anotherpage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "鑫平台",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

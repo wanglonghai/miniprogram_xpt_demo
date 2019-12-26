@@ -1,0 +1,4 @@
+<view>
+<web-view src='{{redpackUrl}}' bindmessage="handleMsg"></web-view>
+</view>
+<!-- <image style="width: 300px; height: 300px; margin:10px;" mode="scaleToFill" src="{{imageSrc}}"></image> -->

@@ -1,0 +1,11 @@
+<view>
+<web-view src='{{houseUrl}}' bindmessage="handleGetMessage">
+    <cover-view class="tool-bar">
+      <cover-image src="../image/nav-bg.png" class="nav-bg"></cover-image>
+      <cover-view class="tool-btn">
+          <cover-view>我的</cover-view>
+          <cover-view>订单</cover-view>
+      </cover-view>
+    </cover-view>
+</web-view>
+</view>

@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+ <view style="border:1px solid red;margin-top:5px">
+  <text>请输入支付金额：</text>
+    <input bindinput="bindPayInput"></input>
+    <button bindtap="payForXPT" style="margin:5px">支付</button>
+  </view>
+  <button bindtap="askOrderStatus" style="margin:5px">查询订单支付状态</button>
+  <button class='pop_btn' plain="true" open-type='getPhoneNumber' bindgetphonenumber="getPhoneNumber">获取用户手机号</button>
+  <view style="border:1px solid red;margin-top:5px">
+    <text>请输入领取金额：</text>
+    <input bindinput="bindRedPackInput"></input>
+    <button bindtap="toAnotherPage">提现</button> 
+  </view>
+  <view style="border:1px solid red;margin-top:10px">
+    <button  open-type="share">分享房源</button> 
+  </view>
+  <button bindtap="gotoHouseDetail">到达房源页面</button>
+</view>

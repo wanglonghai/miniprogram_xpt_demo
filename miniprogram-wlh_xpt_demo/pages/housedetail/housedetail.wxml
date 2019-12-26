@@ -1,0 +1,3 @@
+<view>
+<web-view src='{{houseUrl}}' bindmessage="handleMsg"></web-view>
+</view>
